@@ -1,4 +1,4 @@
-package com.goldfish.datastar.selenium.testing.localhost.basic;
+package com.goldfish.datastar.selenium.testing.localhost.findElement;
 
 import static org.testng.AssertJUnit.assertEquals;
 import org.openqa.selenium.By;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.goldfish.datastar.selenium.testing.webdriver.GoldfishDatastarAbstractChromeWebDriverTestNgTest;
 
 
-public class TableTest extends GoldfishDatastarAbstractChromeWebDriverTestNgTest {
+public class ByCssSelectorToFindTableAndCheckingColumnTest extends GoldfishDatastarAbstractChromeWebDriverTestNgTest {
         	
 	@Test
 	public void testPageTableHtmlTableByUsingCssSelectorToTestBrwoserColumnValues01() {	

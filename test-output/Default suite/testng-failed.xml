@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.goldfish.datastar.selenium.testing.localhost.login.LogingToLocalhostTest">
+      <class name="com.goldfish.datastar.selenium.testing.localhost.findElement.ByTagName">
         <methods>
-          <include name="loginAndSubmitToSwitchToWelcomePageTest"/>
+          <include name="getDetailsAboutLoginButton"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
+          <include name="getDetailsAboutInputTags_FindAllElements_Login"/>
+          <include name="getDetailsAboutInputTags_FindElementWillReturnFirstElement"/>
         </methods>
-      </class> <!-- com.goldfish.datastar.selenium.testing.localhost.login.LogingToLocalhostTest -->
+      </class> <!-- com.goldfish.datastar.selenium.testing.localhost.findElement.ByTagName -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

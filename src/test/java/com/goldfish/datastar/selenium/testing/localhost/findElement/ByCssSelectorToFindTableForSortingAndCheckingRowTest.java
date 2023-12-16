@@ -1,4 +1,4 @@
-package com.goldfish.datastar.selenium.testing.localhost.basic;
+package com.goldfish.datastar.selenium.testing.localhost.findElement;
 
 import static org.testng.Assert.assertEquals;
 
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import com.goldfish.datastar.selenium.testing.webdriver.GoldfishDatastarAbstractChromeWebDriverTestNgTest;
 
-public class TableSortingTest extends GoldfishDatastarAbstractChromeWebDriverTestNgTest {
+public class ByCssSelectorToFindTableForSortingAndCheckingRowTest extends GoldfishDatastarAbstractChromeWebDriverTestNgTest {
 
 	@Test
 	public void testCssSelectorForaTableTd() {

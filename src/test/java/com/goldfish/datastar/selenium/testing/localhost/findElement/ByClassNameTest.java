@@ -1,4 +1,4 @@
-package com.goldfish.datastar.selenium.testing.localhost.basic;
+package com.goldfish.datastar.selenium.testing.localhost.findElement;
 
 import static org.testng.AssertJUnit.assertEquals;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import com.goldfish.datastar.selenium.testing.webdriver.GoldfishDatastarAbstractChromeWebDriverTestNgTest;
 
-public class ClassNameTest extends GoldfishDatastarAbstractChromeWebDriverTestNgTest {
+public class ByClassNameTest extends GoldfishDatastarAbstractChromeWebDriverTestNgTest {
 
 	@Test
 	public void testTitleTextElement() {
